@@ -1,16 +1,16 @@
-#Coded format
+# Coded format
 The critical path includes both start and end node. Ie. critical path of d for instance may be [a,b,c,d]
 
-#Brief
+# Brief
 A prolog code is written to calculate the critical path, early start, maximum slack and latest start for nodes in a graph. I have written recursive functions to determine the sequential method to perform each task and the exit conditions for each condition have been added.
 
-#Process
+# Process
 Consult the cide in prolog compiler and then run the described functions.
 
-#Task
+# Task
 To implement and evaluate the critical path scheduling method in Prolog for arbitrary scheduling graphs.
 
-#Description
+# Description
 
 Code implements the following the following predicates for testing without using the if-then construct:
 criticalPath(<task>, <path>).
@@ -26,6 +26,6 @@ As always your code must be clear, readable, and well commented, and your own. Y
 include diagrams of the test graphs with values for the early start, late start, and slack and the critical path
 indicated.
 
-#Given Params
+# Given Params
 duration(a, 10).
 prerequisite(b, a).
